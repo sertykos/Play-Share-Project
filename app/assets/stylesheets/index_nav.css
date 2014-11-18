@@ -1,0 +1,362 @@
+/* Nav bar */
+
+.nav-bar  {
+      margin: auto;
+      width: 75%;
+      height: 60px;
+      border: 1px solid black;
+}
+
+/* Decoration for the Navigation bar */
+
+.cracks-dec-nav {
+                position: relative;
+}
+
+.dec-nav-bar  {
+        float: left;
+        position: relative;
+        right: 136px;
+        bottom: 30px;
+        height: 120px;
+}
+
+.top-dec-nav-bar  {
+          float: left;
+          position: relative;
+}
+
+.top-1  {
+    left: 117px;
+}
+
+.top-2  {
+    left: 105px;
+}
+
+.top-3  {
+    left: 93px;
+}
+
+.top-4  {
+    left: 81px;
+}
+
+.top-5  {
+    left: 69px;
+}
+
+.top-6  {
+    left: 57px;
+}
+
+.top-7  {
+    left: 45px;
+}
+
+.top-8{
+    left: 33px;
+}
+
+.top-9  {
+    left: 21px;
+}
+
+.top-10 {
+    left: 9px;
+}
+
+.top-11 {
+    left: -3px;
+}
+
+.top-right-end-1  {
+          bottom: 167px;
+          left: 1104px;
+}
+
+.top-right-end-2  {
+          left: 1110px;
+          bottom: 107px;
+}
+
+.top-left-end-1 {
+        bottom: 119px;
+        left: 132px;
+}
+
+.top-left-end-2 {
+          bottom: 59px;
+          left: 126px;
+}
+
+.main-right-1 {
+        left: 907px;
+        bottom: 73px;
+}
+
+.main-left-1  {
+        left: -254px;
+        bottom: 73px;
+}
+
+.bottom-dec-nav-bar {
+          position: relative;
+          bottom: 13px;
+}
+
+.bottom-texture-1 {
+          position: relative;
+          right: 452px;
+}
+
+.bottom-texture-2 {
+          position: relative;
+          right: 465px;
+}
+
+.bottom-texture-3 {
+          position: relative;
+          right: 478px;
+}
+
+.bottom-texture-4 {
+          position: relative;
+          right: 491px;
+}
+
+.bottom-texture-5 {
+          position: relative;
+          right: 504px;
+}
+
+.bottom-texture-6 {
+          position: relative;
+          right: 517px;
+}
+
+.bottom-texture-7 {
+          position: relative;
+          right: 530px;
+}
+
+.bottom-texture-8 {
+          position: relative;
+          left: 376px;
+          bottom: 80px;
+}
+
+.bottom-texture-9 {
+          position: relative;
+          left: 363px;
+          bottom: 80px;
+}
+
+.bottom-texture-10  {
+          position: relative;
+          left: 350px;
+          bottom: 80px;
+}
+
+.bottom-texture-11  {
+          position: relative;
+          left: 337px;
+          bottom: 80px;
+}
+
+.bottom-texture-12  {
+          position: relative;
+          left: 324px;
+          bottom: 80px;
+}
+
+.bottom-texture-13  {
+          position: relative;
+          left: 311px;
+          bottom: 80px;
+}
+
+.bottom-texture-14  {
+          position: relative;
+          left: 298px;
+          bottom: 80px;
+}
+
+.bottom-texture-15  {
+          position: relative;
+          left: 285px;
+          bottom: 80px;
+}
+
+.bottom-end-dec-nav-bar {
+                        position: relative;
+                        bottom: 107px;
+}
+
+.bottom-end-texture-1 {
+                      position: relative;
+                      left: 133px;
+                      bottom: 5px;
+}
+
+.bottom-end-texture-2 {
+                      position: relative;
+                      left: 124px;
+}
+
+.bottom-end-texture-3 {
+                      position: relative;
+                      left: 115px;
+                      bottom: 5px;
+}
+
+.bottom-end-texture-4 {
+                      position: relative;
+                      left: 106px;
+}
+
+.bottom-end-texture-5 {
+                      position: relative;
+                      left: 97px;
+                      bottom: 5px;
+}
+
+.bottom-end-texture-6 {
+                      position: relative;
+                      left: 88px;
+}
+
+.bottom-end-texture-7 {
+                      position: relative;
+                      left: 79px;
+                      bottom: 5px;
+}
+
+.bottom-end-texture-8 {
+                      position: relative;
+                      left: 70px;
+}
+
+.bottom-end-texture-9 {
+                      position: relative;
+                      left: 61px;
+                      bottom: 5px;
+}
+
+.bottom-end-texture-10 {
+                      position: relative;
+                      left: 52px;
+}
+
+.bottom-end-texture-11 {
+                      position: relative;
+                      left: 43px;
+                      bottom: 5px;
+}
+
+.bottom-end-texture-12 {
+                      position: relative;
+                      left: 34px;
+}
+
+.bottom-end-texture-13 {
+                      position: relative;
+                      left: 25px;
+                      bottom: 5px;
+}
+
+.bottom-end-texture-14 {
+                      position: relative;
+                      left: 16px;
+}
+
+.bottom-end-texture-15 {
+                        position: relative;
+                        left: 1204px;
+                        bottom: 52px;
+}
+
+.bottom-end-texture-16 {
+                      position: relative;
+                      left: 1195px;
+                      bottom: 47px;
+}
+
+.cracks-dec-nav {
+                position: relative;
+                bottom: 300px;
+}
+
+.crack-1  {
+          position: relative;
+          left: 328px;
+}
+
+.crack-2  {
+          position: relative;
+          left: 428px;
+}
+
+.crack-3  {
+          position: relative;
+          left: 331px;
+}
+
+.crack-4  {
+          position: relative;
+          left: 507px;
+}
+
+.crack-5  {
+          position: relative;
+          left: 548px;
+}
+
+.crack-6  {
+          position: relative;
+          left: 462px;
+}
+
+/***************************************/
+
+.ul-nav-bar {
+      text-align: center;
+      position: relative;
+}
+
+.li-nav-bar {
+        display: inline-block;
+        list-style: none;
+        margin-top: 4px;
+}
+
+.li-1 {
+    position: absolute;
+    left: 60px;
+}
+
+.li-2 {
+    position: absolute;
+    left: 300px;
+}
+
+.li-3 {
+    position: absolute;
+    right: 300px;
+}
+
+.li-4 {
+    position: absolute;
+    right: 60px;
+}
+
+.a-link-nav-bar {
+        position: relative;
+        top: 25px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 24px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        z-index: 5;
+}

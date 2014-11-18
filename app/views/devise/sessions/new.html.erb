@@ -1,0 +1,33 @@
+
+<div class="sign_in-box">
+
+<h2 class="sign_in-txt-box">Sign in</h2>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field e-mail-sign_in-box">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true %>
+  </div>
+
+  <div class="field pass-sign_in-box">
+    <%= f.label :password %><br />
+    <%= f.password_field :password, autocomplete: "off" %>
+  </div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div class="field remember-sign_in-box">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end -%>
+
+  <div class="actions btn-sign_in-box">
+    <%= f.submit "Sign in" %>
+  </div>
+<% end %>
+
+  <div class="shared_links-sign_in-box">
+    <%= render "devise/shared/links" %>
+  </div>
+
+</div>

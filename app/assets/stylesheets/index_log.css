@@ -1,0 +1,54 @@
+.sign-section	{
+				height: 100px;
+				width: 180px;
+				position: absolute;
+				top: 20px;
+				right: 140px;
+}
+
+.sign-title	{
+			text-align: center;
+			padding-bottom: 10px;
+			font-family: 'Indie Flower', cursive;
+			font-weight: bold;
+}
+
+.sign_in-btn	{
+			display: block;
+			margin: auto;
+			width: 80px;
+			height: 37px;
+}
+
+.sign_in-txt	{
+			text-align: center;
+			font-size: 12px;
+			color: grey;
+}
+
+.sign_up-btn	{
+			display: block;
+			margin: auto;
+			width: 80px;
+			height: 37px;
+}
+
+.sign_up-txt	{
+			text-align: center;
+			font-size: 12px;
+			color: grey;
+}
+
+/* If it is signed in */
+
+.sign_out-btn	{
+				display: block;
+				margin: auto;
+				width: 80px;
+				height: 37px;
+}
+
+.sign_out-txt	{
+				text-align: center;
+				color: grey;
+}
