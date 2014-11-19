@@ -6,6 +6,12 @@ Rails.application.routes.draw do
 
   root 'index#home'
 
+  get 'thegame' => 'index#game'
+
+  get 'media' => 'index#media'
+
+  get 'community' => 'index#community'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,19 +1,28 @@
-<h2>Sign up</h2>
+
+<div class="background_sign_up-1"></div>
+<div class="background_sign_up-2"></div>
+<div class="background_sign_up-3"></div>
+
+<%= link_to "Home", root_path, :method => "get", class: "home-btn" %>
+
+<div class="sign_up-box">
+
+<h2 class="sign_up-txt-box">Sign up</h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
 
-  <div class="field">
+  <div class="field name-sign_up-box">
     <%= f.label :name %><br />
     <%= f.text_field :name, autofocus: true %>
   </div>
 
-  <div class="field">
+  <div class="field e-mail-sign_up-box">
     <%= f.label :email %><br />
     <%= f.email_field :email %>
   </div>
 
-  <div class="field">
+  <div class="field pass-sign_up-box">
     <%= f.label :password %>
     <% if @validatable %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
@@ -21,14 +30,18 @@
     <%= f.password_field :password, autocomplete: "off" %>
   </div>
 
-  <div class="field">
+  <div class="field pass_conf-sign_up-box">
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 
-  <div class="actions">
+  <div class="actions btn-sign_up-box">
     <%= f.submit "Sign up" %>
   </div>
 <% end %>
 
+<div class="shared_links-sign_up-box">
 <%= render "devise/shared/links" %>
+</div>
+
+</div>

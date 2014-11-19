@@ -1,119 +1,4 @@
 
-<!-- Header -->
-
-<header class="header">
-
-  <div class="background-header"></div>
-
-<!-- Sign Up/In -->
-
-  <% if user_signed_in? %>
-
-    <div class="sign-section">
-      <p class="sign-title">Welcome <%= current_user.name %> !</p>
-      <p class="sign_out-txt" >Sign Out</p>
-      <%= link_to image_tag("misc/block-sign_out.png"), destroy_user_session_path, method: 'DELETE', class: "sign_out-btn" %>
-    </div>
-
-  <% else %>
-
-    <div class="sign-section">
-      <p class="sign-title">Have fun with us!</p>
-      <p class="sign_in-txt">Sign In</p>
-      <%= link_to image_tag("misc/block-sign_in.png"), new_user_session_path, :method => "get", class: "sign_in-btn" %>
-      <p class="sign_up-txt">Sign Up</p>
-      <%= link_to image_tag("misc/block-sign_up.png"), new_user_registration_path, :method => "get", class: "sign_up-btn" %>
-    </div>
-
-  <% end %>
-
-  <div class="logo">logo</div>
-
-</header>
-
-<!-- ********************* Navigation Bar ********************* -->
-
-<div class="dec-nav-bar">
-  <img src="assets/textures/up-left-texture.png" class="top-dec-nav-bar top-left-end-1">
-  <img src="assets/textures/up-left-texture.png" class="top-dec-nav-bar top-left-end-2">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-1">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-2">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-3">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-4">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-5">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-6">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-7">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-8">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-9">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-10">
-  <img src="assets/textures/top-nav-texture.png" class="top-dec-nav-bar top-11">
-  <img src="assets/textures/up-right-texture.png" class="top-dec-nav-bar top-right-end-2">
-  <img src="assets/textures/up-right-texture.png" class="top-dec-nav-bar top-right-end-1">
-  <img src="assets/textures/main-nav-texture.png" class="top-dec-nav-bar main-left-1">
-  <img src="assets/textures/main-nav-texture.png" class="top-dec-nav-bar main-right-1">
-  <div class="bottom-dec-nav-bar">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-1">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-2">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-3">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-4">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-5">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-6">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-7">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-8">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-9">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-10">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-11">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-12">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-13">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-14">
-    <img src="assets/textures/main-nav-texture.png" class="bottom-texture-15">
-  </div>
-  <div class="bottom-end-dec-nav-bar">
-    <img src="assets/textures/bottom-end-texture-1.png" class="bottom-end-texture-1">
-    <img src="assets/textures/bottom-end-texture-2.png" class="bottom-end-texture-2">
-    <img src="assets/textures/bottom-end-texture-1.png" class="bottom-end-texture-3">
-    <img src="assets/textures/bottom-end-texture-2.png" class="bottom-end-texture-4">
-    <img src="assets/textures/bottom-end-texture-1.png" class="bottom-end-texture-5">
-    <img src="assets/textures/bottom-end-texture-2.png" class="bottom-end-texture-6">
-    <img src="assets/textures/bottom-end-texture-1.png" class="bottom-end-texture-7">
-    <img src="assets/textures/bottom-end-texture-2.png" class="bottom-end-texture-8">
-    <img src="assets/textures/bottom-end-texture-1.png" class="bottom-end-texture-9">
-    <img src="assets/textures/bottom-end-texture-2.png" class="bottom-end-texture-10">
-    <img src="assets/textures/bottom-end-texture-1.png" class="bottom-end-texture-11">
-    <img src="assets/textures/bottom-end-texture-2.png" class="bottom-end-texture-12">
-    <img src="assets/textures/bottom-end-texture-1.png" class="bottom-end-texture-13">
-    <img src="assets/textures/bottom-end-texture-2.png" class="bottom-end-texture-14">
-    <img src="assets/textures/bottom-end-texture-1.png" class="bottom-end-texture-15">
-    <img src="assets/textures/bottom-end-texture-2.png" class="bottom-end-texture-16">
-  </div>
-  <div class="cracks-dec-nav">
-    <img src="assets/textures/crack.png" class="crack-1">
-    <img src="assets/textures/crack.png" class="crack-2">
-    <img src="assets/textures/crack.png" class="crack-3">
-    <img src="assets/textures/crack.png" class="crack-4">
-    <img src="assets/textures/crack.png" class="crack-5">
-    <img src="assets/textures/crack.png" class="crack-6">
-  </div>
-</div>
-
-<nav class="nav-bar">
-  <ul class="ul-nav-bar">
-    <li class="li-nav-bar li-1">
-        <a href="#" class="a-link-nav-bar">Home</a>
-    </li>
-    <li class="li-nav-bar li-2">
-        <a href="#" class="a-link-nav-bar">The Game</a>
-    </li>
-    <li class="li-nav-bar li-3">
-        <a href="#" class="a-link-nav-bar">Media</a>
-    </li>
-    <li class="li-nav-bar li-4">
-        <a href="#" class="a-link-nav-bar">Community</a>
-    </li>
-  </ul>
-</nav>
-
-
 <!-- ********************* Main body part ********************* -->
 
 <div class="background-div">
@@ -126,7 +11,7 @@
     </div>
     <article class="new-art">
       <p class="new-p">
-        I am more than happy to welcome everyone to ******* !<br/><br/>
+        I am more than happy to welcome everyone to Play&Share !<br/><br/>
         If you love videogames then this website is perfect for you. You will have the feeling of
         playing a 2D videogame while you are surfering through it.
         I am aware that all the people here doesn´t like just "the feeling of playing" but what all

@@ -1,0 +1,87 @@
+
+.home-btn	{
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			color: grey;
+}
+
+.background_sign_up-1 	{
+						background-image: url(misc/background_sign_in-1.png);
+						background-repeat: no-repeat;
+						position: absolute;
+						width: 43%;
+						height: 270px;
+						bottom: 0px;
+						right: 0px;
+}
+
+.background_sign_up-2 	{
+						background-image: url(misc/background_sign_in-2.png);
+						background-repeat: no-repeat;
+						position: absolute;
+						width: 43%;
+						height: 270px;
+						bottom: 0px;
+}
+
+.background_sign_up-3	{
+						background-image: url(textures/sky.png);
+						position: absolute;
+						width: 100%;
+						height: 300px;
+}
+
+.sign_up-box	{
+				width: 40%;
+				height: 359px;
+				position: relative;
+				top: 110px;
+				margin: auto;
+				border: 8px ridge #996600;
+}
+
+.sign_up-txt-box	{
+					position: relative;
+					text-align: center;
+					top: 20px;
+					font-family: 'Indie Flower', cursive;
+					font-size: 24px;
+}
+
+.name-sign_up-box	{
+					position: absolute;
+					left: 180px;
+					top: 80px;
+}
+
+.e-mail-sign_up-box	{
+					position: absolute;
+					left: 180px;
+					top: 130px;
+}
+
+.pass-sign_up-box	{
+					position: absolute;
+					left: 180px;
+					top: 180px;
+}
+
+.pass_conf-sign_up-box	{
+						position: absolute;
+						left: 180px;
+						top: 230px;
+}
+
+.btn-sign_up-box	{
+					position: absolute;
+					left: 220px;
+					top: 290px;
+}
+
+.shared_links-sign_up-box	{
+							width: 50px;
+							position: absolute;
+							bottom: 10px;
+							left: 10px;
+}

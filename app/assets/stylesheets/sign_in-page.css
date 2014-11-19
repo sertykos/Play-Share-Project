@@ -1,0 +1,81 @@
+
+.home-btn	{
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			color: grey;
+}
+
+.background_sign_in-1 	{
+						background-image: url(misc/background_sign_in-1.png);
+						background-repeat: no-repeat;
+						position: absolute;
+						width: 43%;
+						height: 270px;
+						bottom: 0px;
+						right: 0px;
+}
+
+.background_sign_in-2 	{
+						background-image: url(misc/background_sign_in-2.png);
+						background-repeat: no-repeat;
+						position: absolute;
+						width: 43%;
+						height: 270px;
+						bottom: 0px;
+}
+
+.background_sign_in-3	{
+						background-image: url(textures/sky.png);
+						position: absolute;
+						width: 100%;
+						height: 300px;
+}
+
+.sign_in-box	{
+				width: 40%;
+				height: 329px;
+				position: relative;
+				top: 110px;
+				margin: auto;
+				border: 8px ridge #996600;
+}
+
+.sign_in-txt-box	{
+					position: relative;
+					text-align: center;
+					top: 20px;
+					font-family: 'Indie Flower', cursive;
+					font-size: 24px;
+}
+
+.e-mail-sign_in-box	{
+					position: absolute;
+					left: 180px;
+					top: 80px;
+}
+
+.pass-sign_in-box	{
+					position: absolute;
+					left: 180px;
+					top: 130px;
+}
+
+.remember-sign_in-box	{
+					position: absolute;
+					left: 190px;
+					top: 170px;
+}
+
+.btn-sign_in-box	{
+					position: absolute;
+					left: 230px;
+					top: 220px;
+}
+
+.shared_links-sign_in-box	{
+							width: 150px;
+							position: absolute;
+							bottom: 10px;
+							left: 10px;
+}
