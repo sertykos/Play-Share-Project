@@ -8,9 +8,12 @@ Rails.application.routes.draw do
 
   get 'thegame' => 'index#game'
 
-  get 'media' => 'index#media'
+  get 'about_me' => 'index#aboutme'
 
-  get 'community' => 'index#community'
+  get 'community' => 'posts#community'
+
+  resources :posts
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

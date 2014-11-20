@@ -11,3 +11,4 @@ user_1, user_2, user_3 = User.create([
 {name: 'user_2', email: 'user_2@ironhack.com', password: 'ironhack', password_confirmation: 'ironhack'},
 {name: 'user_3', email: 'user_3@ironhack.com', password: 'ironhack', password_confirmation: 'ironhack'}
 ])
+

@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function signPageReady() {
 
     var header = document.getElementById('header');
     var dec_nav = document.getElementById('dec-nav');

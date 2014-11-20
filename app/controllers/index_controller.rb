@@ -8,12 +8,8 @@ class IndexController < ApplicationController
 		render 'game'
 	end
 
-	def media
-		render 'media'
-	end
-
-	def community
-		render 'community'
+	def aboutme
+		render 'aboutme'
 	end
 
 end

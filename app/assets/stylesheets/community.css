@@ -1,54 +1,88 @@
-.community-section	{
-					width: 70%;
-					position: relative;
+
+.community-title	{
+					text-align: center;
+					font-family: 'Indie Flower', cursive;
+					font-weight: bold;
+					font-size: 24px;
+					margin-top: 80px;
+}
+
+.community-new_post-section	{
+							position: relative;
+							left: 27%;
+							top: 30px;
+							width: 45%;
+							height: 220px;
+							padding-top: 30px;
+							border: 1px solid black;
+}
+
+.new_post-inputs	{
+					width: 80%;
 					margin: auto;
-					padding: 10px;
-					border: 1px solid black;
 }
 
-/*.frame-img-prof	{
-				position: absolute;
-				left: 10px;
-				top: 10px;
-}*/
-
-.prof-img	{
-			width: 60px;
-			height: 60px;
-
-}
-
-.community-by-section	{
-						display: inline-block;
+.community-title_label	{
+						position: absolute;
+						left: 40px;
 						font-family: 'Indie Flower', cursive;
-						color: grey;
+						font-weight: bold;
 }
 
-.article	{
-			font-family: 'Indie Flower', cursive;
-			font-weight: bold;
-			padding-top: 10px;
+.community-title_input 	{
+						position: absolute;
+						left: 120px;
+						width: 420px;
 }
 
-.art-title	{
-			font-size: 24px;
-			margin-bottom: 16px;
+.community-comment_label	{
+							position: absolute;
+							left: 40px;
+							top: 70px;
+							width: 420px;
+							font-family: 'Indie Flower', cursive;
+							font-weight: bold;
 }
 
-.art-txt	{
-			margin-left: 30px;
-			margin-bottom: 10px;
+
+.community-comment_input 	{
+							position: absolute;
+							left: 120px;
+							top: 70px;
+							width: 420px;
 }
 
-.community-textarea	{
-					height: 70px;
-					width: 340px;
-					margin-left: 30px;
+.community-new_post-btn	{
+						position: absolute;
+						bottom: 10px;
+						right: 65px;
+						width: 120px;
+						height: 30px;
 }
 
-.comment-btn	{
-				width: 80px;
-				height: 30px;
-				position: relative;
-				bottom: 12px;
+.community-table_posts	{
+						position: relative;
+						top: 80px;
+						margin: auto;
+						border: 1px solid black;
+						width: 60%;
+}
+
+.community-table-body	{
+						display: block;
+						margin-left: 30px;
+						margin-top: 20px;
+						margin-bottom: 20px;
+						width: 93%;
+						padding: 10px;
+						border: 1px solid black;
+}
+
+.community-table_title-txt 	{
+							display: block;
+}
+
+.community-table_comment-txt 	{
+								display: block;
+								margin-top: 10px;
 }

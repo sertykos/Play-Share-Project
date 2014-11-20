@@ -9,10 +9,6 @@
 
 /* Decoration for the Navigation bar */
 
-.cracks-dec-nav {
-                position: relative;
-}
-
 .dec-nav-bar  {
         float: left;
         position: relative;
@@ -295,26 +291,40 @@
 .crack-2  {
           position: relative;
           left: 428px;
+          top: 4px
 }
 
 .crack-3  {
           position: relative;
           left: 331px;
+          bottom: 4px;
 }
 
 .crack-4  {
           position: relative;
-          left: 507px;
+          left: 451px;
 }
 
 .crack-5  {
           position: relative;
-          left: 548px;
+          left: 347px;
 }
 
 .crack-6  {
           position: relative;
-          left: 462px;
+          left: 393px;
+}
+
+.crack-7  {
+          position: relative;
+          left: 277px;
+          top: 8px
+}
+
+.crack-8  {
+          position: relative;
+          left: 160px;
+          bottom: 2px;
 }
 
 /***************************************/
