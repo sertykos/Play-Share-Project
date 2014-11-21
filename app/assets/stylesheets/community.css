@@ -64,25 +64,55 @@
 						position: relative;
 						top: 80px;
 						margin: auto;
-						border: 1px solid black;
+						border: 12px ridge #996600;
 						width: 60%;
 }
 
-.community-table-body	{
+.community-table_body	{
+							background-image: url(textures/white-tile.png);
+							background-repeat: inherit;
+}
+
+.community-table-tr	{
 						display: block;
 						margin-left: 30px;
 						margin-top: 20px;
 						margin-bottom: 20px;
 						width: 93%;
-						padding: 10px;
+						padding: 20px;
 						border: 1px solid black;
+						font-family: 'Indie Flower', cursive;
+						background-color: white;
 }
 
 .community-table_title-txt 	{
 							display: block;
+							font-size: 21px;
+							font-weight: bold;
+							width: 80%;
 }
 
 .community-table_comment-txt 	{
 								display: block;
 								margin-top: 10px;
+								margin-bottom: 10px;
+								font-size: 18px;
+								width: 80%
+}
+
+.community-table_by-txt	{
+						font-size: 13px;
+						color: blue;
+						display: inline-block;
+						margin-right: 5px;
+}
+
+.community-table_date-txt	{
+							font-size: 13px;
+							color: grey;
+							display: inline-block;
+}
+
+.community-table_img	{
+						float: right;
 }

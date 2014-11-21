@@ -30,11 +30,14 @@
 
 <table class="community-table_posts">
 
-  <tbody>
+  <tbody class="community-table_body">
     <% @posts.each do |post| %>
-      <tr  class="community-table-body">
+      <tr  class="community-table-tr">
+      	<td class="community-table_img"><img src="assets/misc/book.png"></td>
         <td class="community-table_title-txt"><%= post.title %></td>
         <td class="community-table_comment-txt"><%= post.comment %></td>
+      	<td class="community-table_by-txt"><p>By: <%= post.user.name %></p></td>
+      	<td class="community-table_date-txt"><%= post.created_at %></td>
       </tr>
     <% end %>
   </tbody>
