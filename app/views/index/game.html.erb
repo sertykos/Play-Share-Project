@@ -1,1 +1,24 @@
-<p>The Game</p>
+
+<p class="game-title">Game Zone</p>
+
+<div id="mask_start" class="mask_start">
+	<img src="assets/game/mage.png" class="game-start-mage">
+	<p class="game-start">Mage Defense</p>
+	<img src="assets/game/monster.png" class="game-start-monster">
+	<img src="assets/game/fire-bg.png" class="game-start-fire">
+	<p class="press-start cssanimations">-- Press START --</p>
+</div>
+<div id="mask_stop" class="mask_stop"></div>
+<script src="assets/game.js"></script>
+
+<div class="chrono">
+
+	<form name="chronoForm">
+    	<input class="start-btn buttons" type="button" name="startstop" value="START" onClick="chronoStart()"><!--<img src="/assets/textures/magic-btn.png">--></input>
+    	<input id="reset-btn" class="reset-btn buttons" type="button" name="reset" value="Reset!" onClick="chronoReset()" />
+	</form>
+	<span id="chronotime" class="chronotime">0:00:00:00</span>
+
+	<input type="submit" value="Share" class="share-btn" />
+
+</div>

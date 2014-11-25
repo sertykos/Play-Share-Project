@@ -1,0 +1,117 @@
+
+.game-title	{
+			font-family: 'Indie Flower', cursive;
+			font-weight: bold;
+			font-size: 46px;
+			text-align: center;
+			margin-top: 80px;
+			margin-bottom: 40px;
+}
+
+.mask_start	{
+		width: 722px;
+		height: 408px;
+		position: absolute;
+		/*left: 284px;*/
+		left: 314px;
+		z-index: 100;
+		background-color: black;
+}
+
+.mask_stop	{
+			width: 722px;
+			height: 408px;
+			position: absolute;
+			/*left: 284px;*/
+			left: 314px;
+			z-index: 100;
+			background-color: rgba(0, 0, 0, 0.7);
+}
+
+.none_visible	{
+				display: none;
+}
+
+.game-start	{
+			color: white;
+			font-family: 'Griffy', cursive;
+			font-size: 40px;
+			left: 160px;
+			position: relative;
+			top: 100px;
+}
+
+.game-start-mage	{
+					float: left;
+					position: relative;
+					left: 80px;
+					top: 40px;
+}
+
+.game-start-monster	{
+					float: right;
+					position: relative;
+					right: 80px;
+					top: 40px;
+					z-index: 1;
+}
+
+.game-start-fire	{
+					float: right;
+					position: relative;
+					right: 16px;
+					top: 44px;
+}
+
+@-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}}
+@keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}}
+
+
+.press-start	{
+				position: relative;
+				top: 200px;
+				left: 220px;
+				color: white;
+				-webkit-transition:all 1s ease-in-out;
+				transition:all 1s ease-in-out;
+				-webkit-animation:blink normal 2s infinite ease-in-out;
+				animation:blink normal 2s infinite ease-in-out;
+}
+
+.chrono	{
+		width: 50%;
+		position: relative;
+		left: 340px;
+		margin-top: 10px;
+}
+
+.chronotime	{
+			display: block;
+			font-size: 40px;
+			text-align: center;
+}
+
+.start-btn	{
+			float: left;
+			background: url(textures/start-btn.png);
+			color: white;
+}
+
+.reset-btn	{
+			float: right;
+			background: url(textures/stop-btn.png);
+			color: white;
+}
+
+.buttons	{
+			width: 126px;
+			height: 127px;
+			border-radius: 50%;
+			border: 0px;
+}
+
+.share-btn	{
+			margin: auto;
+			display: block;
+			margin-top: 30px;
+}
