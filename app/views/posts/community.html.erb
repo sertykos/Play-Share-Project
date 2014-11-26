@@ -22,7 +22,7 @@
 <% else %>
 
 	<h2>To comment sign in <a href="#">here</a>.</h2>
-	<p>If you have no yet signed up, I invite to you to do it! <a href="#">Sign up</a></p>
+	<p>If you have no yet signed up, I invite you to do it! <a href="#">Sign up</a></p>
 
 <% end %>
 
@@ -33,7 +33,8 @@
   <tbody class="community-table_body">
     <% @posts.each do |post| %>
       <tr  class="community-table-tr">
-      	<td class="community-table_img"><img src="assets/misc/book.png"></td>
+      	<!--<td class="community-table_img"><img src="assets/misc/book.png"></td>-->
+      	<td class="community-table_avatar"><%= image_tag post.user.avatar %></td>
         <td class="community-table_title-txt"><%= post.title %></td>
         <td class="community-table_comment-txt"><%= post.comment %></td>
       	<td class="community-table_by-txt"><p>By: <%= post.user.name %></p></td>

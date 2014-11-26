@@ -64,6 +64,7 @@
 						position: relative;
 						top: 80px;
 						margin: auto;
+						margin-bottom: 100px;
 						border: 12px ridge #996600;
 						width: 60%;
 }
@@ -83,6 +84,7 @@
 						border: 1px solid black;
 						font-family: 'Indie Flower', cursive;
 						background-color: white;
+						overflow: hidden;
 }
 
 .community-table_title-txt 	{
@@ -113,6 +115,11 @@
 							display: inline-block;
 }
 
-.community-table_img	{
+.community-table_avatar	{
+						width: 60px;
+						height: 60px;
 						float: right;
+						position: relative;
+						top: 0px;
+						right: 10px;
 }

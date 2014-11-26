@@ -43,6 +43,16 @@ a:hover 	{
 		display: inline-block;
 }
 
+.avatar-select	{
+				display: none;
+				border: 1px solid black;
+				width: 330px;
+				position: absolute;
+				top: 110px;
+				right: 10px;
+				z-index: 100;
+}
+
 /*.title 	{
 		width: 60%;
 		height: 120px;

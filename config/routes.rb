@@ -12,7 +12,11 @@ Rails.application.routes.draw do
 
   get 'community' => 'posts#community'
 
+  post 'set_avatar' => 'index#set_avatar'
+
   resources :posts
+
+  resources :scores, :only => [:create]
 
 
   # The priority is based upon order of creation: first created -> highest priority.

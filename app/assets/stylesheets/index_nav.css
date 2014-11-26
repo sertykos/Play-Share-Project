@@ -5,6 +5,7 @@
       width: 75%;
       height: 60px;
       border: 1px solid black;
+      z-index: 99;
 }
 
 /* Decoration for the Navigation bar */
@@ -15,6 +16,7 @@
         right: 136px;
         bottom: 30px;
         height: 120px;
+        z-index: 90;
 }
 
 .top-dec-nav-bar  {
@@ -332,6 +334,7 @@
 .ul-nav-bar {
       text-align: center;
       position: relative;
+      z-index: 99;
 }
 
 .li-nav-bar {

@@ -7,5 +7,7 @@ class User < ActiveRecord::Base
 
   has_many :posts
   validates_associated :posts
+  has_many :scores
+  validates_associated :scores
 
 end

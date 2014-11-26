@@ -1,5 +1,42 @@
 
-<p class="game-title">Game Zone</p>
+<div class="background-game"></div>
+
+<div class="liana-left">
+	<img src="assets/misc/liana_double_1.png" class="liana-left-1">
+	<img src="assets/misc/liana_double_1.png" class="liana-left-2">
+	<img src="assets/misc/liana_double_2.png" class="liana-left-3">
+	<img src="assets/misc/liana_double_1.png" class="liana-left-4">
+	<img src="assets/misc/liana_double_2.png" class="liana-left-5">
+	<img src="assets/misc/liana_double_end.png" class="liana-left-6-end">
+</div>
+
+<div  class="liana-right">
+	<img src="assets/misc/liana-right-1.png" class="liana-right-1">
+	<img src="assets/misc/liana-right-2.png" class="liana-right-2">
+	<img src="assets/misc/liana-right-1.png" class="liana-right-3">
+	<img src="assets/misc/liana-right-2.png" class="liana-right-4">
+	<img src="assets/misc/liana-right-2.png" class="liana-right-5">
+	<img src="assets/misc/liana-right-1.png" class="liana-right-6">
+	<img src="assets/misc/liana-right-2.png" class="liana-right-7">
+	<img src="assets/misc/liana-right-1.png" class="liana-right-8">
+	<img src="assets/misc/liana-right-end.png" class="liana-right-9-end">
+</div>
+
+<img src="assets/misc/blood.png" class="blood-img">
+<p class="game-title">Play & Share</p>
+
+<div class="leaderboard-section">
+	<h3 class="leaderboard-title">Leaderboard</h3>
+	<% @scores.each do |score| %>
+
+		<div>
+			<%= score.kills %>
+			<%= score.chronotime %>
+			<%= score.user.name %>
+		</div>
+
+	<% end %>
+</div>
 
 <div id="mask_start" class="mask_start">
 	<img src="assets/game/mage.png" class="game-start-mage">
@@ -8,7 +45,9 @@
 	<img src="assets/game/fire-bg.png" class="game-start-fire">
 	<p class="press-start cssanimations">-- Press START --</p>
 </div>
-<div id="mask_stop" class="mask_stop"></div>
+<div id="mask_stop" class="mask_stop">
+	<p class="share-txt">Share your time and kills with the community!</p>
+</div>
 <script src="assets/game.js"></script>
 
 <div class="chrono">
@@ -19,6 +58,25 @@
 	</form>
 	<span id="chronotime" class="chronotime">0:00:00:00</span>
 
-	<input type="submit" value="Share" class="share-btn" />
+<% if user_signed_in? %>
+
+	<%= form_for @score do |f| %>
+
+		<%= f.hidden_field :kills, id: 'kills-field' %>
+		<%= f.hidden_field :chronotime, id: 'chronotime-field' %>
+		<%= f.submit "Share", class: 'game-share-btn' %>
+
+	<% end %>
+
+<% else %>
+
+	<h2>To share your score sign in <a href="#">here</a>.</h2>
+	<p>If you have no yet signed up, I invite you to do it! <a href="#">Sign up</a></p>
+
+<% end %>
+
+	<!--<input type="submit" value="Share" class="share-btn" />-->
 
 </div>
+
+

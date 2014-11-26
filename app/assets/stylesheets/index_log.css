@@ -52,3 +52,29 @@
 				text-align: center;
 				color: grey;
 }
+
+.user-avatar	{
+				position: absolute;
+				top: 0px;
+				right: -40px;
+				border-radius: 20%;
+				width: 60px;
+				height: 60px;
+}
+
+.avatar-select	{
+				display: none;
+				border: 3px ridge #996600;
+				width: 332px;
+				position: absolute;
+				top: 110px;
+				right: 10px;
+				z-index: 100;
+				padding: 5px;
+}
+
+.avatar_to_choose	{
+					border-radius: 20%;
+					width: 60px;
+					height: 60px;
+}

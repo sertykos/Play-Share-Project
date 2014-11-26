@@ -25,6 +25,7 @@
 
     <div class="sign-section">
       <p class="sign-title">Welcome <%= current_user.name %> !</p>
+      <%= image_tag current_user.avatar, id: "user-avatar", class: "user-avatar", onclick: "toggle_visibility()" %>
       <p class="sign_out-txt" >Sign Out</p>
       <%= link_to image_tag("misc/block-sign_out.png"), destroy_user_session_path, method: 'DELETE', class: "sign_out-btn" %>
     </div>
@@ -40,6 +41,14 @@
     </div>
 
   <% end %>
+
+  <div id="avatar-select" class="avatar-select">
+
+    <% (1..10).each do |i| %>
+      <%= link_to image_tag("avatar/avatar-#{i}.jpeg", class: "avatar_to_choose"), set_avatar_path(:user => {:avatar_selected => "avatar/avatar-#{i}.jpeg"}), method: :post %>
+    <% end %>
+
+  </div>
 
   <div class="logo">logo</div>
 
@@ -130,6 +139,14 @@
 </nav>
 
 <%= yield %>
+
+<!-- ********************* Footer ********************* -->
+
+<footer id="footer" class="footer">
+
+  <p class="copyright">©SergioSR<p>
+
+</footer>
 
 </body>
 </html>

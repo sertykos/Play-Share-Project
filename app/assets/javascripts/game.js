@@ -188,8 +188,10 @@ function chrono(){
 	else if(msec < 100){
 		msec = "0" +msec
 	}
-	document.getElementById("chronotime").innerHTML = hr + ":" + min + ":" + sec + ":" + msec
-	timerID = setTimeout("chrono()", 10)
+	document.getElementById("chronotime").innerHTML = hr + ":" + min + ":" + sec + ":" + msec;
+	document.getElementById("chronotime-field").value = hr + ":" + min + ":" + sec + ":" + msec;
+	document.getElementById("kills-field").value = monsterCaught;
+	timerID = setTimeout("chrono()", 10);
 }
 function chronoStart(){
 	document.chronoForm.startstop.value = "STOP!"
@@ -225,6 +227,9 @@ function chronoStopReset(){
 	document.chronoForm.startstop.onclick = chronoStart
 	var mask_start = document.getElementById('mask_start');
 	mask_start.setAttribute('style', 'display:block');
+	monsterCaught = 0;
+	document.getElementById("chronotime-field").value = "0:00:00:000"
+	document.getElementById("kills-field").value = 0;
 }
 function chronoStop(){
 	document.chronoForm.startstop.value = "START"
@@ -234,9 +239,5 @@ function chronoStop(){
 	clearTimeout(timerID)
 	var mask_stop = document.getElementById('mask_stop');
 	mask_stop.setAttribute('style', 'display:block')
+
 }
-
-/*function caught() {
-	monsterCaught = 0;
-}*/
-
