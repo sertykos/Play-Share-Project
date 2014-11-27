@@ -1,0 +1,5 @@
+Beforen running the server:
+
+- rake db:migrate
+
+- delete index.js.coffee at Play-Share-Project\app\assets\javascripts
