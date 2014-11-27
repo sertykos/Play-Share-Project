@@ -27,12 +27,14 @@
 
 <div class="leaderboard-section">
 	<h3 class="leaderboard-title">Leaderboard</h3>
+	<p class="kills_time_name">Kills - Time - Name</p>
 	<% @scores.each do |score| %>
 
-		<div>
-			<%= score.kills %>
-			<%= score.chronotime %>
-			<%= score.user.name %>
+		<div class="user-game_info">
+			<p class="user-game_kills"><%= score.kills %></p>
+			<p class="user-game_chronotime"><%= score.chronotime %></p>
+			<p class="user-game_name"><%= score.user.name %></p>
+			<p class="user-game_created"><%= score.created_at %></p>
 		</div>
 
 	<% end %>

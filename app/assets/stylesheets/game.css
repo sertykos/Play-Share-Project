@@ -79,65 +79,65 @@
 }
 
 .liana-right-2	{
-position: relative;
-bottom: 3px;
-left: 1px;
+				position: relative;
+				bottom: 3px;
+				left: 1px;
 }
 
 .liana-right-3	{
-position: relative;
-bottom: 7px;
-left: 1px;
+				position: relative;
+				bottom: 7px;
+				left: 1px;
 }
 
 .liana-right-4	{
-position: relative;
-bottom: 10px;
-left: 2px;
+				position: relative;
+				bottom: 10px;
+				left: 2px;
 }
 
 .liana-right-5	{
-position: relative;
-bottom: 14px;
-left: 2px;
+				position: relative;
+				bottom: 14px;
+				left: 2px;
 }
 
 .liana-right-6	{
-position: relative;
-bottom: 18px;
-left: 2px;
+				position: relative;
+				bottom: 18px;
+				left: 2px;
 }
 
 .liana-right-7	{
-position: relative;
-bottom: 21px;
-left: 3px;
+				position: relative;
+				bottom: 21px;
+				left: 3px;
 }
 
 .liana-right-8	{
-position: relative;
-bottom: 25px;
-left: 3px;
+				position: relative;
+				bottom: 25px;
+				left: 3px;
 }
 
 .liana-right-9-end	{
-position: relative;
-bottom: 29px;
-left: 3px;
+					position: relative;
+					bottom: 29px;
+					left: 3px;
 }
 
 /************ Leaderboard ************/
 
 .leaderboard-section	{
 						float: right;
-						border: 1px solid black;
+						box-shadow: inset 1px 1px 20px black;
 						width: 17%;
 						height: 410px;
 						position: absolute;
 						right: 30px;
 						overflow: scroll;
-						background-color: white;
-						padding-top: 10px;
+						background-color: rgba(152,152,152,0.7);
+						padding: 10px;
 }
 
 .leaderboard-title	{
@@ -150,17 +150,65 @@ left: 3px;
 					margin: auto;
 }
 
+.kills_time_name	{
+					text-align: center;
+					margin: 10px;
+					font-family: 'Indie Flower', cursive;
+					font-size: 20px;
+					color: #D8D8D8;
+}
+
+.user-game_info	{
+				text-align: center;
+				border: 4px ridge #996600;
+				padding: 5px;
+				margin-bottom: 5px;
+				font-family: 'Indie Flower', cursive;
+				font-weight: bold;
+				position: relative;
+				height: 55px;
+}
+
+.user-game_kills	{
+					color: rgb(208, 0, 0);
+					font-size: 24px;
+					position: absolute;
+					left: 10px;
+}
+
+.user-game_chronotime	{
+						font-family: 'Griffy', cursive;
+						font-size: 16px;
+						position: absolute;
+						left: 45px;
+						top: 10px;
+}
+
+.user-game_name	{
+				color: blue;
+				position: absolute;
+				right: 5px;
+				top: 10px;
+}
+
+.user-game_created	{
+					font-size: 15px;
+					color: #D8D8D8;
+					position: absolute;
+					bottom: 2px;
+					left: 25px;
+}
+
 /************	MASKS ************/
 
 .mask_start	{
-		width: 722px;
-		height: 408px;
-		position: absolute;
-		/*left: 284px;*/
-		left: 314px;
-		z-index: 88;
-		background-color: black;
-		box-shadow: 1px 1px 10px white;
+			width: 722px;
+			height: 408px;
+			position: absolute;
+			left: 314px;
+			z-index: 88;
+			background-color: black;
+			box-shadow: 1px 1px 10px white;
 }
 
 .mask_stop	{
@@ -242,7 +290,7 @@ left: 3px;
 		position: relative;
 		left: 340px;
 		margin-top: 10px;
-		margin-bottom: 90px;
+		margin-bottom: 70px;
 }
 
 .chronotime	{
@@ -276,10 +324,18 @@ left: 3px;
 			height: 127px;
 			border-radius: 50%;
 			border: 0px;
+			font-family: 'Griffy', cursive;
+			font-size: 22px;
 }
 
-.share-btn	{
-			margin: auto;
-			display: block;
-			margin-top: 30px;
+.game-share-btn	{
+				width: 157px;
+				height: 47px;
+				background: url(misc/button-share.png);
+				border: 0px;
+				margin-left: 140px;
+				margin-top: 20px;
+				color: white;
+				font-size: 27px;
+				font-family: 'Griffy', cursive;
 }

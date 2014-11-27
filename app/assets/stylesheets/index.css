@@ -33,14 +33,45 @@ a:hover 	{
 					background-repeat: no-repeat;
 }
 
-.logo	{
-		width: 100px;
-		height: 80px;
-		border: 1px solid black;
-		position: relative;
-		top: 30px;
-		left: 40px;
-		display: inline-block;
+.logo 	{
+width: 220px;
+height: 120px;
+position: relative;
+top: 10px;
+left: 0px;
+}
+
+.leaf	{
+position: absolute;
+width: 140px;
+bottom: 10px;
+z-index: -1;
+opacity: 0.7;
+}
+
+.logo_play_share	{
+font-family: 'Lobster', cursive;
+font-size: 50px;
+color: #990000;
+opacity: 0.9
+}
+
+.logo_and	{
+font-family: 'Lobster', cursive;
+font-size: 25px;
+font-weight: bold;
+position: absolute;
+top: 45px;
+left: 50px;
+z-index: -1;
+color: #3333CC;
+}
+
+.wasd	{
+position: absolute;
+left: 50px;
+bottom: 10px;
+width: 160px;
 }
 
 .avatar-select	{

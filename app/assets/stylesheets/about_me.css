@@ -4,23 +4,27 @@
 					margin: auto;
 					margin-top: 70px;
 					margin-bottom: 100px;
-					padding: 10px;
-					border: 1px solid black;
+					padding: 20px;
+					background-color: white;
+					box-shadow: inset 1px 1px 10px black;
 }
 
 .about-img	{
 			float: right;
-			border-radius: 10%
-			box-shadow: 5px 10px 15px grey;
+			box-shadow: 1px 1px 30px black;
+			border-radius: 10%;
+			margin-right: 40px;
 }
 
 .about-contact_info-section	{
-							border: 1px solid black;
+							box-shadow: 1px 1px 30px black;
 							width: 60%;
 							height: 220px;
 							margin-left: 60px;
 							margin-bottom: 20px;
 							padding-top: 10px;
+							color: #A8A8A8;
+							background: url(textures/black-tile.png);
 }
 
 .about-info-title	{
@@ -39,6 +43,10 @@
 						margin-bottom: 15px;
 }
 
+.contact-links	{
+				color: white;
+}
+
 .contact_info	{
 				font-family: 'Indie Flower', cursive;
 				font-size: 18px;
@@ -47,9 +55,12 @@
 }
 
 .about-extra_info-section	{
-							border: 1px solid black;
+							box-shadow: 1px 1px 30px black;
 							height: 200px;
 							padding-top: 10px;
+							background: url(textures/black-tile.png);
+							font-family: 'Indie Flower', cursive;
+							color: #A8A8A8;
 }
 
 .about-extra_info-ul	{
@@ -57,14 +68,50 @@
 						margin-top: 10px;
 }
 
-.about-extra_info-li	{
+.about-extra_info-birth	{
+position: relative;
+float: right;
+right: 30px;
+}
 
+.about-extra_info-interests	{
+margin-bottom: 10px;
+}
+
+.interest_main-txt	{
+display: inline-block;
+font-weight: bold;
+margin: 3px 0px;
+}
+
+.parties-li	{
+font-weight: bold;
 }
 
 .about-extra_info-h5	{
 						display: inline-block;
+						margin-bottom: 10px;
+						font-size: 20px;
+						text-decoration: underline;
 }
 
 .about-extra_info-p	{
 					display: inline-block;
 }
+
+/**************** Decoration ****************/
+
+.building-1	{
+position: absolute;
+top: 310px;
+z-index: -1;
+}
+
+.tree	{
+position: absolute;
+right: 10px;
+top: 590px;
+z-index: -1;
+}
+
+
